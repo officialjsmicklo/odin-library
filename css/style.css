@@ -1,3 +1,6 @@
+/** Google Fonts API. */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
 /**
  * Global variables.
  * =================
@@ -24,6 +27,10 @@
 	--muted-orange: #f5b041;
 	--yellow: #f4d03f;
 
+
+	/** Typography. */
+	--font-sans-serif: Karla, 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Geneva, Corbel, Tahoma, Verdana, Helvetica, Arial, sans-serif;
+	--font-serif: 'Playfair Display', Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -42,5 +49,18 @@
 
 *:before, *:after {
 	box-sizing: border-box;
+}
+
+html {
+	font: 400 1rem/1.5rem var(--font-sans-serif);
+}
+
+/**
+ * Page heading.
+ * =============
+ */
+
+header#page-heading {
+	background: linear-gradient(to right, var(--red), var(--blood-orange), var(--muted-orange), var(--yellow));
 }
 
