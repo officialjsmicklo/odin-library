@@ -10,6 +10,7 @@
 
 	/** Color scheme. */
 
+	--black: #111;
 	--slate-gray: #566573;
 	--dark-gray: #abb2b9;
 	--charcoal: #424929;
@@ -77,5 +78,26 @@ header#page-heading h1 {
 	font-weight: 900;
 	color: var(--white);
 	text-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+/** Navigation. */
+header#page-heading nav {
+	background: rgba(0, 0, 0, 0.75);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.75);
+	color: var(--silver);
+	padding: 0.55rem;
+	border-radius: 10px;
+	text-align: center;
+}
+
+header nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 1rem;
+	padding: 0.25rem;
 }
 
