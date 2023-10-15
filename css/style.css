@@ -1,0 +1,46 @@
+/**
+ * Global variables.
+ * =================
+ */
+
+:root {
+
+	/** Color scheme. */
+
+	--slate-gray: #566573;
+	--dark-gray: #abb2b9;
+	--charcoal: #424929;
+	--gray: #e5e8e8;
+	--light-gray: #ebedef;
+	--silver: #eaeded;
+	--ash: #e5e7e9;
+	--snow: #f8f9f9;
+	--white: #fff;
+	--crimson-red: #922b21;
+	--red: #c0392b;
+	--muted-red: #d98880;
+	--blood-orange: #d35400;
+	--orange: e67e22;
+	--muted-orange: #f5b041;
+	--yellow: #f4d03f;
+
+}
+
+
+/**
+ * Generic, universal reset and box sizing model.
+ * ==============================================
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	box-sizing: border-box;
+}
+
